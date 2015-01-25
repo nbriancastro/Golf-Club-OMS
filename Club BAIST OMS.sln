@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Technical Services", "4-Technical Services", "{AA4B077C-19F7-478E-9FB2-F180799ADFF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Business Domain", "3-Business Domain", "{3690083C-A1C6-4678-B642-6FF3B3780957}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{5EC56955-D6FB-4099-B316-F297EEF21F6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Web UI", "1-Web UI", "{56FBF990-E09D-4983-82C5-5000E79269F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Unit Test", "5-Unit Test", "{0F13A4B5-0A6D-4D71-9ED2-1115C8002F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS Domain", "OMS Domain\OMS Domain.csproj", "{64F3EC92-8DEC-4BFD-A1AD-57F80E943CDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS UnitTest", "OMS Test\OMS UnitTest.csproj", "{020C190D-F8FA-497F-AD75-AF70E990C84C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A01C25D-81CF-4E69-A62B-AA232404FE3E}"
+	ProjectSection(SolutionItems) = preProject
+		Club BAIST OMS.vsmdi = Club BAIST OMS.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS Application", "OMS Application\OMS Application.csproj", "{63092692-B7EA-4D7B-A886-3AB71331D236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS Web", "OMS Web\OMS Web.csproj", "{BA41D2FC-17EB-4229-9453-9F5C27442037}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Club BAIST OMS.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64F3EC92-8DEC-4BFD-A1AD-57F80E943CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F3EC92-8DEC-4BFD-A1AD-57F80E943CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F3EC92-8DEC-4BFD-A1AD-57F80E943CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F3EC92-8DEC-4BFD-A1AD-57F80E943CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020C190D-F8FA-497F-AD75-AF70E990C84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020C190D-F8FA-497F-AD75-AF70E990C84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020C190D-F8FA-497F-AD75-AF70E990C84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020C190D-F8FA-497F-AD75-AF70E990C84C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63092692-B7EA-4D7B-A886-3AB71331D236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63092692-B7EA-4D7B-A886-3AB71331D236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63092692-B7EA-4D7B-A886-3AB71331D236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63092692-B7EA-4D7B-A886-3AB71331D236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA41D2FC-17EB-4229-9453-9F5C27442037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA41D2FC-17EB-4229-9453-9F5C27442037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA41D2FC-17EB-4229-9453-9F5C27442037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA41D2FC-17EB-4229-9453-9F5C27442037}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64F3EC92-8DEC-4BFD-A1AD-57F80E943CDA} = {3690083C-A1C6-4678-B642-6FF3B3780957}
+		{63092692-B7EA-4D7B-A886-3AB71331D236} = {5EC56955-D6FB-4099-B316-F297EEF21F6E}
+		{BA41D2FC-17EB-4229-9453-9F5C27442037} = {56FBF990-E09D-4983-82C5-5000E79269F9}
+		{020C190D-F8FA-497F-AD75-AF70E990C84C} = {0F13A4B5-0A6D-4D71-9ED2-1115C8002F89}
+		{1A01C25D-81CF-4E69-A62B-AA232404FE3E} = {0F13A4B5-0A6D-4D71-9ED2-1115C8002F89}
+	EndGlobalSection
+EndGlobal
